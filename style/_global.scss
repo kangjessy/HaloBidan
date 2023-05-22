@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(132.56deg, #005faf 17.36%, #01abe9 83.46%);
+  font-family: "inter", sans-serif;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  color: #ffffff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 42px;
+  color: #0c174b;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.konsultasi {
+  .konsultasi-card {
+    .konsultasi-info {
+      .konsultasi-logo {
+      }
+
+      .konsultasi-name {
+        .name {
+          font-weight: 700;
+          font-size: 32px;
+          color: #0c174b;
+        }
+
+        .job {
+          font-weight: 700;
+          font-size: 15px;
+          color: #9aa1b8;
+        }
+      }
+    }
+
+    .konsultasi-date {
+      font-weight: 700;
+      font-size: 20px;
+      color: #0c174b;
+    }
+  }
+}
+
+.artikel {
+  .artikel-img {
+    &:hover {
+      opacity: 0.3;
+    }
+  }
+}
