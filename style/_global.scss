@@ -30,39 +30,76 @@ h3 {
   color: #ffffff;
 }
 
-.konsultasi {
-  .konsultasi-card {
-    .konsultasi-info {
-      .konsultasi-logo {
+.card {
+  border: none;
+  border-radius: 16px;
+}
+
+.page-landing {
+  padding-bottom: 180px;
+
+  .hero {
+    .body-tengah-melayang {
+      padding: 80px;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 5px 28px 31px 20px rgba(0, 104, 184, 0.27);
+      backdrop-filter: blur(24.5px);
+      border-radius: 42px;
+      margin-top: -200px;
+
+      .konsultasi {
+        .konsultasi-card {
+          .konsultasi-info {
+            .konsultasi-logo {
+            }
+
+            .konsultasi-name {
+              .name {
+                font-weight: 700;
+                font-size: 32px;
+                color: #0c174b;
+              }
+
+              .job {
+                font-weight: 700;
+                font-size: 15px;
+                color: #9aa1b8;
+              }
+            }
+          }
+
+          .konsultasi-date {
+            font-weight: 700;
+            font-size: 20px;
+            color: #0c174b;
+          }
+        }
       }
 
-      .konsultasi-name {
-        .name {
-          font-weight: 700;
-          font-size: 32px;
-          color: #0c174b;
-        }
-
-        .job {
-          font-weight: 700;
-          font-size: 15px;
-          color: #9aa1b8;
+      .artikel {
+        .artikel-img {
+          &:hover {
+            opacity: 0.3;
+          }
         }
       }
-    }
-
-    .konsultasi-date {
-      font-weight: 700;
-      font-size: 20px;
-      color: #0c174b;
     }
   }
 }
 
-.artikel {
-  .artikel-img {
-    &:hover {
-      opacity: 0.3;
+.produk {
+  .price-tag {
+    .price {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      color: #094370;
+    }
+    .tag {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      color: #000000;
     }
   }
 }
